@@ -1,0 +1,6 @@
+[submodule "crypto-primitives"]
+	path = crypto-primitives
+	url = https://github.com/arkworks-rs/crypto-primitives.git
+[submodule "poseidon2"]
+	path = poseidon2
+	url = https://github.com/HorizenLabs/poseidon2.git
