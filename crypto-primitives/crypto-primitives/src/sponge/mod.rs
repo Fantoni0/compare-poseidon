@@ -21,9 +21,7 @@ pub mod poseidon;
 ///
 /// [merlin]: https://merlin.cool/
 pub mod merlin;
-
-#[cfg(test)]
-mod test;
+pub mod test;
 
 /// An enum for specifying the output field element size.
 #[derive(Clone, Copy, Eq, PartialEq)]

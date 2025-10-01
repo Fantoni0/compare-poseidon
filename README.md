@@ -26,7 +26,12 @@ Compares **Poseidon v2** implementations between Horizen and Icicle.
 - For this reason, outputs are different and times obviously favor Horizen, but it is still interesting to see how they compare.
 
 ## Running the Benchmarks
+Initialize git submodules
+```bash
+ git submodule update --init --recursive 
+```
 
+Run benchmarks
 ```bash
 # Run Poseidon v1 comparison
 cargo bench --bench poseidon_comparison

@@ -1,9 +1,6 @@
-use std::hint::black_box;
 use ark_std::rand::Rng;
 use ark_std::{time::Duration, test_rng};
-use criterion::{
-    criterion_group, criterion_main, Criterion,
-};
+use criterion::{black_box, criterion_group, criterion_main, Criterion};
 // Arkwork dependencies
 use ark_crypto_primitives::{
     sponge::{
